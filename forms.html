@@ -2,10 +2,11 @@
 <html>
 	<head>
 		<title>
-			Introduction to Forms
+			Introduction to Forms in PHP
 		</title>
 	</head>
-	<body>
+	<body>\
+		<h5> Here you can learn about how to create form using php as a backend</h5>
 		
 		<!--simple textbox-->
 		<form action="server side url/filename" method="post">
@@ -17,8 +18,8 @@
 		<br />
 		<!-- TextBox with Password type-->
 		<form>
-			User Name: <input type="text" name="txtUserName" /><br />
-			Password : <input type="password" name="txtPassword" /><br />
+			User Name: <input type="text" name="txtUserName" id ="textUserName /><br />
+			Password : <input type="password" name="txtPassword" id ="password /><br />
 		</form>
 		
 		<br />
@@ -42,13 +43,14 @@
 		 Please Select your Gender <br />
 		<input type="radio" name="rdGender" Value="Male"/> Male
 		<input type="radio" name="rdGender" Value="FeMale" /> Female
+		<input type="radio" name="rdGender" Value="FeMale" /> Other
 		</form>
 		
 		<br />
 		<br />
 		<!--Select Option-->
 		<form action="" method="get">
-			Please Select your Education: 
+			Please Select your Desire Education: 
 			<select name="slEdu">
 				<option value="Matric">Matric</option>
 				<option value="Inter">I.C.S/F.S.C/F.A</option>
